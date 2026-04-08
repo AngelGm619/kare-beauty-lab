@@ -1,0 +1,114 @@
+
+:root {
+    --pastel-bg: #fcf8fa;     
+    --kare-primary: #a182b1;  
+    --text-dark: #4a4a4a;
+    --text-muted: #7a7a7a;
+    --whatsapp-pastel: #7ee0a4; 
+}
+
+body { 
+    font-family: 'Poppins', sans-serif; 
+    background-color: var(--pastel-bg); 
+    color: var(--text-dark);
+    padding-bottom: 50px;
+}
+
+h1, h2, h3 { 
+    font-family: 'Playfair Display', serif; 
+    font-weight: 600;
+}
+
+/* Sección de Perfil */
+.profile-header {
+    background-color: #fff;
+    padding: 40px 20px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+    box-shadow: 0 10px 30px rgba(225, 190, 200, 0.3);
+}
+
+.kare-main-logo {
+    max-height: 220px; 
+    margin-bottom: 15px; 
+    filter: drop-shadow(0 4px 6px rgba(161, 130, 177, 0.1));
+}
+
+.brand-name {
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+    color: var(--text-dark);
+    text-transform: uppercase;
+}
+
+.brand-subtitle {
+    font-weight: 300;
+    color: var(--text-muted);
+    font-size: 0.95rem;
+}
+
+/* Sección de Beneficios */
+.benefits-list {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.benefit-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 0.9rem;
+}
+
+.benefit-icon {
+    color: var(--kare-primary); 
+    margin-right: 10px;
+    font-size: 1.1rem;
+}
+
+/* Sección de Resultados Reales */
+.results-section h2 {
+    color: var(--text-dark);
+}
+
+.ba-card {
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    margin-bottom: 20px;
+}
+
+.result-image {
+    width: 100%;
+    height: auto;
+    object-fit: contain; 
+}
+
+/* Sección de Enlaces y Botones */
+.btn-kare { 
+    border-radius: 50px; 
+    font-weight: 600; 
+    padding: 14px; 
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.9rem;
+    border: none;
+}
+
+.btn-kare:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.btn-whatsapp {
+    background-color: var(--whatsapp-pastel);
+    color: #fff;
+}
+
+.btn-instagram {
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: #fff;
+}
